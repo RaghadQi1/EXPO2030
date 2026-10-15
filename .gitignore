@@ -1,0 +1,39 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS / editors
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Secrets — never commit
+*.xcconfig.local
+Secrets.plist
+.env
+
+# GitHub-safe local configuration and runtime files
+**/.env
+**/.env.*
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/instance/
+*.sqlite3
+*.sqlite3-*
+*.db
+.DS_Store
+__MACOSX/
